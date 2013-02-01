@@ -3,12 +3,17 @@ tf2ib
 
 An IRC Pick-Up-Game bot for TF2
 
-This project has been developped on Linux. The installation instructions have been tested on Linux. If you need a local IRC server I recommend you ngIRCD, I made a post about it there: http://stackoverflow.com/questions/144049/recommended-irc-server-ircd-for-a-small-site/990201#990201
+This project has been developed on Linux. The installation instructions have been tested on Linux. 
+If you need a local IRC server I recommend you ngIRCD, I made a post about it there: 
+http://stackoverflow.com/questions/144049/recommended-irc-server-ircd-for-a-small-site/990201#990201
 
 
 1st step: configuring the database. I use PostgreSQL and I recommend it for this project.
 ----------------------------------------
-su postgres // This command need to be run as root.
+This command need to be run as root.
+```bash
+su postgres
+```
 psql -c "CREATE USER tf2ib WITH PASSWORD 'jw8s0F4'"
 psql -c "CREATE DATABASE tf2ib"
 psql tf2ib < database.sql
