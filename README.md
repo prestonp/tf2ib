@@ -14,7 +14,7 @@ Configure the database
 I use PostgreSQL and I recommend it for this project.
 
 
-This command need to be run as root:
+This command needs to be run as root:
 
 ```bash
 su postgres
