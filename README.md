@@ -47,14 +47,14 @@ The second argument is the nickname of your messenger.
 ```
 
 Files:
-* BeautifulSoup.py - Library used to parse HTLM, it's only used on the ESEA bot.
+* BeautifulSoup.py - Library used to parse HTML, it's only used on the ESEA bot.
 * config.py - Configuration file used by some scripts, you will probably set the variable values to what you need.
 * data.sh - Script that is intended to run as a cron job on a TF2 server. It does copy the stats and STV files to the web server.
 * database.sql - File used to create the tables for the bot database.
 * esea.py - Very basic bot (300 lines of code) used for the ESEA channel.
 * irclib.py - Library used by the different bots to connect and communicate through the IRC protocol.
 * pug.py - Main bot, it is strongly recommended to analyze the code before doing any modifications.
-* run.sh - Wrapper script that automatically re-launch the bot when they crash (this will happen). You usually use the script as follow (arguments are optionnals): ./run.sh script.py argument1 argument2
+* run.sh - Wrapper script that automatically re-launches the bot when it crashes (this will happen). You usually use the script as follows (arguments are optionnals): ./run.sh script.py argument1 argument2
 * sample.sql - Data for the database, this is mostly for if you need to fill the tables with some testing data.
 * send.py - Messenger bot, you need at least one running.
 * SRCDS.py - Library used to send rcon commands and control the TF2 servers.
